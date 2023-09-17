@@ -1,0 +1,23 @@
+{
+  "name": "nlwia",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "web": "vite",
+    "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings server/index.js"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.6.0",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-wav": "^0.0.2",
+    "ytdl-core": "4.10.0"
+  }
+}
